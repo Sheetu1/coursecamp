@@ -1,4 +1,4 @@
-import jwt from "jsonwebtoken" 
+import jwt from "jsonwebtoken";
 
 const auth = (req, res, next) => {
     try {
@@ -17,7 +17,7 @@ const auth = (req, res, next) => {
         } else if (err.name === "TokenExpiredError") {
             return res.status(403).json({ message: "Token expired" });
         }
-        return res.status(500).json({ message: "Internal Server error" });
+        return res.status(500).json({ message: "Internal Server Error" });
     }
 };
 
