@@ -17,7 +17,7 @@ const auth = (req, res, next) => {
         } else if (err.name === "TokenExpiredError") {
             return res.status(403).json({ message: "Token expired" });
         }
-        return res.status(500).json({ message: "Internal Server Error" });
+        return res.status(500).json({ message: "Internal Server error" });
     }
 };
 
