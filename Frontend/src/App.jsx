@@ -1,9 +1,13 @@
- import React from 'react'
- 
- const App = () => {
-   return (
-     <div>App</div>
-   )
- }
- 
- export default App
+// App.jsx
+import React from 'react'
+import AllRoutes from '../src/Routes/AllRoutes'
+
+const App = () => {
+  return (
+    <div> 
+      <AllRoutes/>
+    </div>
+  ) 
+}
+
+export default App
