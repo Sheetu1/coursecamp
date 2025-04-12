@@ -78,7 +78,7 @@ const AddExam = () => {
           />
         </div>
 
-        {/* Submit Button */}
+        {/* Submit button */}
         <button
           type="submit"
           className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all duration-300 transform hover:scale-105"

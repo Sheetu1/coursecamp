@@ -6,7 +6,7 @@ const AddInstructor = () => {
       <h1 className="text-3xl font-bold mb-6 text-blue-600">Add New Instructor</h1>
 
       <form className="space-y-6 max-w-2xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-xl shadow-xl transition-all duration-300 hover:scale-105">
-        {/* Full Name Field */}
+        {/* Full Name Fields */}
         <div>
           <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">Full Name</label>
           <input

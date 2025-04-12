@@ -45,7 +45,7 @@ const InstituteDashboard = () => {
         </div>
       </div>
 
-      {/* Quick Actions */}
+      {/* Quick actions */}
       <div>
         <h2 className="text-2xl font-bold mb-4">Quick Actions</h2>
         <div className="flex flex-wrap gap-4">
