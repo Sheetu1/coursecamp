@@ -31,7 +31,7 @@ const AllRoutes = () => {
         <Route path="add-exam" element={<AddExam />} />
       </Route>
     </Routes>
-  );
-};
+  )
+}
 
 export default AllRoutes;
